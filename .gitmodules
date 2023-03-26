@@ -1,6 +1,0 @@
-[submodule "MO-Gymnasium"]
-	path = MO-Gymnasium
-	url = git@github.com:Farama-Foundation/MO-Gymnasium.git
-[submodule "morl-baselines"]
-	path = morl-baselines
-	url = git@github.com:LucasAlegre/morl-baselines.git
