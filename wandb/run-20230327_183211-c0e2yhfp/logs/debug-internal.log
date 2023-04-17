@@ -1,0 +1,322 @@
+2023-03-27 18:32:11,260 INFO    StreamThr :23844 [internal.py:wandb_internal():87] W&B internal server running at pid: 23844, started at: 2023-03-27 18:32:11.258874
+2023-03-27 18:32:11,261 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status
+2023-03-27 18:32:11,263 INFO    WriterThread:23844 [datastore.py:open_for_write():85] open: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\run-c0e2yhfp.wandb
+2023-03-27 18:32:11,266 DEBUG   SenderThread:23844 [sender.py:send():336] send: header
+2023-03-27 18:32:11,337 DEBUG   SenderThread:23844 [sender.py:send():336] send: run
+2023-03-27 18:32:12,169 INFO    SenderThread:23844 [dir_watcher.py:__init__():219] watching files in: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files
+2023-03-27 18:32:12,169 INFO    SenderThread:23844 [sender.py:_start_run_threads():1078] run started: c0e2yhfp with start time 1679934731.26137
+2023-03-27 18:32:12,169 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: summary_record
+2023-03-27 18:32:12,170 INFO    SenderThread:23844 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 18:32:12,172 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: check_version
+2023-03-27 18:32:12,172 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: check_version
+2023-03-27 18:32:12,302 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: run_start
+2023-03-27 18:32:12,316 DEBUG   HandlerThread:23844 [system_info.py:__init__():31] System info init
+2023-03-27 18:32:12,316 DEBUG   HandlerThread:23844 [system_info.py:__init__():46] System info init done
+2023-03-27 18:32:12,316 INFO    HandlerThread:23844 [system_monitor.py:start():183] Starting system monitor
+2023-03-27 18:32:12,316 INFO    SystemMonitor:23844 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-27 18:32:12,316 INFO    HandlerThread:23844 [system_monitor.py:probe():204] Collecting system info
+2023-03-27 18:32:12,320 INFO    SystemMonitor:23844 [interfaces.py:start():187] Started cpu monitoring
+2023-03-27 18:32:12,320 DEBUG   HandlerThread:23844 [system_info.py:probe():195] Probing system
+2023-03-27 18:32:12,321 INFO    SystemMonitor:23844 [interfaces.py:start():187] Started disk monitoring
+2023-03-27 18:32:12,322 INFO    SystemMonitor:23844 [interfaces.py:start():187] Started memory monitoring
+2023-03-27 18:32:12,333 INFO    SystemMonitor:23844 [interfaces.py:start():187] Started network monitoring
+2023-03-27 18:32:12,333 DEBUG   HandlerThread:23844 [system_info.py:_probe_git():180] Probing git
+2023-03-27 18:32:12,441 DEBUG   HandlerThread:23844 [system_info.py:_probe_git():188] Probing git done
+2023-03-27 18:32:12,441 DEBUG   HandlerThread:23844 [system_info.py:probe():240] Probing system done
+2023-03-27 18:32:12,441 DEBUG   HandlerThread:23844 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.8', 'heartbeatAt': '2023-03-27T16:32:12.321257', 'startedAt': '2023-03-27T16:32:11.248356', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:/Users/liamm/water-resource-management/GPI/main.py', 'codePath': 'GPI\\main.py', 'git': {'remote': 'git@github.com:liammertens/water-resource-management.git', 'commit': '788295f9a535e9e717973ad983dce36b57379b70'}, 'email': 'liam.mertens02@gmail.com', 'root': 'C:/Users/liamm/water-resource-management', 'host': 'DESKTOP-FJUR71H', 'username': 'liamm', 'executable': 'C:\\Users\\liamm\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1803.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 1803.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'total': 460.88964462280273, 'used': 359.8051414489746}, 'memory': {'total': 15.787006378173828}}
+2023-03-27 18:32:12,441 INFO    HandlerThread:23844 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-27 18:32:12,441 INFO    HandlerThread:23844 [system_monitor.py:probe():217] Publishing system info
+2023-03-27 18:32:12,441 DEBUG   HandlerThread:23844 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-27 18:32:12,442 DEBUG   HandlerThread:23844 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-27 18:32:12,442 DEBUG   HandlerThread:23844 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-27 18:32:13,185 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\requirements.txt
+2023-03-27 18:32:13,185 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\conda-environment.yaml
+2023-03-27 18:32:13,185 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\wandb-summary.json
+2023-03-27 18:32:20,243 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\conda-environment.yaml
+2023-03-27 18:32:20,385 DEBUG   HandlerThread:23844 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-27 18:32:20,385 DEBUG   HandlerThread:23844 [system_info.py:_save_code():89] Saving code
+2023-03-27 18:32:20,437 DEBUG   HandlerThread:23844 [system_info.py:_save_code():110] Saving code done
+2023-03-27 18:32:20,437 DEBUG   HandlerThread:23844 [system_info.py:_save_patches():127] Saving git patches
+2023-03-27 18:32:21,259 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\diff.patch
+2023-03-27 18:32:21,259 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\code\GPI\main.py
+2023-03-27 18:32:21,259 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\code
+2023-03-27 18:32:21,259 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\code\GPI
+2023-03-27 18:32:21,790 DEBUG   HandlerThread:23844 [system_info.py:_save_patches():169] Saving git patches done
+2023-03-27 18:32:21,791 INFO    HandlerThread:23844 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-27 18:32:21,800 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:32:21,800 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:32:21,800 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:32:21,800 DEBUG   SenderThread:23844 [sender.py:send():336] send: files
+2023-03-27 18:32:21,800 INFO    SenderThread:23844 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-27 18:32:21,800 INFO    SenderThread:23844 [sender.py:_save_file():1332] saving file code\GPI\main.py with policy now
+2023-03-27 18:32:21,801 INFO    SenderThread:23844 [sender.py:_save_file():1332] saving file diff.patch with policy now
+2023-03-27 18:32:21,802 INFO    SenderThread:23844 [sender.py:_save_file():1332] saving file upstream_diff_a58a289ed425f318a273b53c47b388199013d379.patch with policy now
+2023-03-27 18:32:21,812 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-27 18:32:21,813 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: stop_status
+2023-03-27 18:32:21,817 INFO    HandlerThread:23844 [handler.py:handle_tbrecord():747] handling tbrecord: tbrecord {
+  log_dir: "/tmp/gpi-ls_2_obj_pen"
+  save: true
+}
+control {
+  relay_id: "3daf3f3d6aa843e39e5441e1644f8fda"
+}
+_info {
+  stream_id: "c0e2yhfp"
+}
+
+2023-03-27 18:32:21,818 DEBUG   HandlerThread:23844 [config_util.py:dict_from_config_file():103] no default config file found in config-defaults.yaml
+2023-03-27 18:32:22,015 DEBUG   Thread-35 :23844 [tb_watcher.py:_process_events():274] Encountered tensorboard directory watcher error: [WinError 1314] A required privilege is not held by the client: 'C:\\tmp\\gpi-ls_2_obj_pen\\events.out.tfevents.1679934741.DESKTOP-FJUR71H.1812.0' -> 'C:\\Users\\liamm\\water-resource-management\\wandb\\run-20230327_183211-c0e2yhfp\\files\\events.out.tfevents.1679934741.DESKTOP-FJUR71H.1812.0'
+2023-03-27 18:32:22,081 DEBUG   SenderThread:23844 [sender.py:send():336] send: telemetry
+2023-03-27 18:32:22,082 DEBUG   SenderThread:23844 [sender.py:send():336] send: tbrecord
+2023-03-27 18:32:22,082 DEBUG   SenderThread:23844 [sender.py:send():336] send: metric
+2023-03-27 18:32:22,083 WARNING SenderThread:23844 [sender.py:send_metric():1283] Seen metric with glob (shouldn't happen)
+2023-03-27 18:32:22,083 DEBUG   SenderThread:23844 [sender.py:send():336] send: telemetry
+2023-03-27 18:32:22,083 DEBUG   SenderThread:23844 [sender.py:send():336] send: telemetry
+2023-03-27 18:32:22,083 DEBUG   SenderThread:23844 [sender.py:send():336] send: config
+2023-03-27 18:32:22,083 DEBUG   SenderThread:23844 [sender.py:send():336] send: config
+2023-03-27 18:32:22,102 INFO    wandb-upload_1:23844 [upload_job.py:push():118] Skipped uploading C:\Users\liamm\AppData\Local\Temp\tmpwktr2acmwandb\kmyv2w1t-code/GPI/main.py
+2023-03-27 18:32:22,262 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\upstream_diff_a58a289ed425f318a273b53c47b388199013d379.patch
+2023-03-27 18:32:22,262 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\wandb-metadata.json
+2023-03-27 18:32:22,262 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\output.log
+2023-03-27 18:32:22,499 INFO    wandb-upload_0:23844 [upload_job.py:push():138] Uploaded file C:\Users\liamm\AppData\Local\Temp\tmpwktr2acmwandb\bmmwfp2v-wandb-metadata.json
+2023-03-27 18:32:22,516 INFO    wandb-upload_3:23844 [upload_job.py:push():138] Uploaded file C:\Users\liamm\AppData\Local\Temp\tmpwktr2acmwandb\jo68lytr-upstream_diff_a58a289ed425f318a273b53c47b388199013d379.patch
+2023-03-27 18:32:22,538 INFO    wandb-upload_2:23844 [upload_job.py:push():138] Uploaded file C:\Users\liamm\AppData\Local\Temp\tmpwktr2acmwandb\scrrjflk-diff.patch
+2023-03-27 18:32:24,288 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\output.log
+2023-03-27 18:32:25,303 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\output.log
+2023-03-27 18:32:27,027 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:32:32,055 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:32:36,805 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:32:36,805 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:32:37,072 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:32:41,841 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:32:42,114 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:32:43,412 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\config.yaml
+2023-03-27 18:32:46,889 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:32:47,450 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:32:51,908 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:32:52,472 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:32:56,930 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:32:57,512 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:01,946 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:02,542 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:06,970 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:07,580 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:12,020 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:12,334 DEBUG   SystemMonitor:23844 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-27 18:33:12,335 DEBUG   SenderThread:23844 [sender.py:send():336] send: stats
+2023-03-27 18:33:13,348 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:17,048 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:18,379 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:22,068 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:23,415 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:27,121 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:28,451 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:32,170 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:33,494 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:37,202 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:38,522 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:42,234 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:42,344 DEBUG   SenderThread:23844 [sender.py:send():336] send: stats
+2023-03-27 18:33:44,352 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:47,265 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:49,387 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:52,304 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:54,406 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:33:57,321 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:33:59,429 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:02,355 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:04,461 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:07,385 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:09,489 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:12,358 DEBUG   SenderThread:23844 [sender.py:send():336] send: stats
+2023-03-27 18:34:12,421 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:15,379 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:17,448 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:20,406 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:22,482 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:25,437 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:27,517 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:30,471 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:32,542 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:35,500 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:37,580 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:40,523 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:42,367 DEBUG   SenderThread:23844 [sender.py:send():336] send: stats
+2023-03-27 18:34:42,601 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:46,400 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:47,622 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:51,426 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:52,638 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:34:56,463 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:34:57,678 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:01,496 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:02,705 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:06,526 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:07,739 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:11,555 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:12,371 DEBUG   SenderThread:23844 [sender.py:send():336] send: stats
+2023-03-27 18:35:12,760 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:17,405 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:17,793 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:22,445 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:22,823 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:27,469 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:27,859 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:32,503 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:32,896 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:34,803 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\output.log
+2023-03-27 18:35:37,923 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:38,177 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:42,379 DEBUG   SenderThread:23844 [sender.py:send():336] send: stats
+2023-03-27 18:35:42,947 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:43,386 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:47,965 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:48,403 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:52,992 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:53,447 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:35:58,044 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:35:58,496 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:36:03,080 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:36:03,520 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:36:08,105 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:36:08,285 DEBUG   SenderThread:23844 [sender.py:send():336] send: exit
+2023-03-27 18:36:08,286 INFO    SenderThread:23844 [sender.py:send_exit():559] handling exit code: 255
+2023-03-27 18:36:08,286 INFO    SenderThread:23844 [sender.py:send_exit():561] handling runtime: 235
+2023-03-27 18:36:08,288 INFO    SenderThread:23844 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 18:36:08,288 INFO    SenderThread:23844 [sender.py:send_exit():567] send defer
+2023-03-27 18:36:08,289 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:08,289 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-27 18:36:08,291 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:08,291 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-27 18:36:08,291 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 1
+2023-03-27 18:36:08,291 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:08,291 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-27 18:36:08,292 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:08,292 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-27 18:36:08,292 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 2
+2023-03-27 18:36:08,292 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:08,292 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-27 18:36:08,292 INFO    HandlerThread:23844 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-27 18:36:08,295 DEBUG   SystemMonitor:23844 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-27 18:36:08,295 DEBUG   SystemMonitor:23844 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-27 18:36:08,296 INFO    HandlerThread:23844 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-27 18:36:08,297 INFO    HandlerThread:23844 [interfaces.py:finish():199] Joined disk monitor
+2023-03-27 18:36:08,297 INFO    HandlerThread:23844 [interfaces.py:finish():199] Joined memory monitor
+2023-03-27 18:36:08,297 INFO    HandlerThread:23844 [interfaces.py:finish():199] Joined network monitor
+2023-03-27 18:36:08,297 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:08,297 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-27 18:36:08,297 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 3
+2023-03-27 18:36:08,298 DEBUG   SenderThread:23844 [sender.py:send():336] send: stats
+2023-03-27 18:36:08,298 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:08,298 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-27 18:36:08,298 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:08,298 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-27 18:36:08,298 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 4
+2023-03-27 18:36:08,298 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:08,299 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-27 18:36:09,235 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\output.log
+2023-03-27 18:36:09,237 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\wandb-summary.json
+2023-03-27 18:36:14,380 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-27 18:36:14,381 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:36:14,381 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:36:14,381 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:36:14,382 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:14,382 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-27 18:36:14,382 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 5
+2023-03-27 18:36:14,382 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: poll_exit
+2023-03-27 18:36:14,383 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:14,383 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-27 18:36:14,383 DEBUG   SenderThread:23844 [sender.py:send():336] send: summary
+2023-03-27 18:36:14,384 INFO    SenderThread:23844 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-27 18:36:14,385 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:14,385 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-27 18:36:14,385 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 6
+2023-03-27 18:36:14,385 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:14,385 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-27 18:36:14,387 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:14,387 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-27 18:36:14,387 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 7
+2023-03-27 18:36:14,387 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:36:14,387 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:14,387 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-27 18:36:14,388 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:14,388 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-27 18:36:15,306 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\wandb-summary.json
+2023-03-27 18:36:16,009 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 8
+2023-03-27 18:36:16,010 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:16,010 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-27 18:36:16,011 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:16,011 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-27 18:36:16,044 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 9
+2023-03-27 18:36:16,045 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:16,045 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-27 18:36:16,046 DEBUG   SenderThread:23844 [sender.py:send():336] send: artifact
+2023-03-27 18:36:16,322 INFO    Thread-17 :23844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\output.log
+2023-03-27 18:36:17,858 INFO    wandb-upload_0:23844 [upload_job.py:push():93] Skipped uploading C:\Users\liamm\AppData\Local\wandb\wandb\artifacts\staging\tmpwb4vu5c3
+2023-03-27 18:36:18,261 INFO    wandb-upload_3:23844 [upload_job.py:push():96] Uploaded file C:\Users\liamm\AppData\Local\wandb\wandb\artifacts\staging\tmpkvke7e8w
+2023-03-27 18:36:18,267 INFO    wandb-upload_1:23844 [upload_job.py:push():96] Uploaded file C:\Users\liamm\AppData\Local\wandb\wandb\artifacts\staging\tmp2yfbvjny
+2023-03-27 18:36:19,365 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-27 18:36:19,916 INFO    SenderThread:23844 [sender.py:send_artifact():1428] sent artifact job-git_github.com_liammertens_water-resource-management.git_GPI_main.py - {'id': 'QXJ0aWZhY3Q6NDA3ODQ3MTQ0', 'digest': '62e68758132aa6a836ea122ca5ac574d', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU4NTY1Mzkw', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDA3Nzg5MzEz', 'versionIndex': 16}}, 'version': 'latest'}
+2023-03-27 18:36:19,917 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:19,917 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-27 18:36:19,918 INFO    SenderThread:23844 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-27 18:36:19,918 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: status_report
+2023-03-27 18:36:20,369 INFO    SenderThread:23844 [dir_watcher.py:finish():395] scan: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files
+2023-03-27 18:36:20,370 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\conda-environment.yaml conda-environment.yaml
+2023-03-27 18:36:20,371 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\config.yaml config.yaml
+2023-03-27 18:36:20,379 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\diff.patch diff.patch
+2023-03-27 18:36:20,379 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\output.log output.log
+2023-03-27 18:36:20,391 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\requirements.txt requirements.txt
+2023-03-27 18:36:20,397 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\upstream_diff_a58a289ed425f318a273b53c47b388199013d379.patch upstream_diff_a58a289ed425f318a273b53c47b388199013d379.patch
+2023-03-27 18:36:20,397 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\wandb-metadata.json wandb-metadata.json
+2023-03-27 18:36:20,397 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\wandb-summary.json wandb-summary.json
+2023-03-27 18:36:20,410 INFO    SenderThread:23844 [dir_watcher.py:finish():409] scan save: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\code\GPI\main.py code\GPI\main.py
+2023-03-27 18:36:20,410 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 10
+2023-03-27 18:36:20,410 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:20,410 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-27 18:36:20,411 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:20,411 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-27 18:36:20,411 INFO    SenderThread:23844 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-27 18:36:21,023 INFO    wandb-upload_2:23844 [upload_job.py:push():138] Uploaded file C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\conda-environment.yaml
+2023-03-27 18:36:21,037 INFO    wandb-upload_3:23844 [upload_job.py:push():138] Uploaded file C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\config.yaml
+2023-03-27 18:36:21,049 INFO    wandb-upload_1:23844 [upload_job.py:push():138] Uploaded file C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\requirements.txt
+2023-03-27 18:36:21,108 INFO    wandb-upload_4:23844 [upload_job.py:push():138] Uploaded file C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\wandb-summary.json
+2023-03-27 18:36:21,120 INFO    wandb-upload_0:23844 [upload_job.py:push():138] Uploaded file C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\files\output.log
+2023-03-27 18:36:21,322 INFO    Thread-16 :23844 [sender.py:transition_state():587] send defer: 11
+2023-03-27 18:36:21,322 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:21,322 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-27 18:36:21,322 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:21,322 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-27 18:36:21,323 INFO    SenderThread:23844 [file_pusher.py:join():169] waiting for file pusher
+2023-03-27 18:36:21,323 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 12
+2023-03-27 18:36:21,323 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:21,323 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-27 18:36:21,324 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:21,324 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-27 18:36:21,622 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 13
+2023-03-27 18:36:21,623 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:21,623 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-27 18:36:21,623 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:21,623 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-27 18:36:21,623 INFO    SenderThread:23844 [sender.py:transition_state():587] send defer: 14
+2023-03-27 18:36:21,624 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: defer
+2023-03-27 18:36:21,624 INFO    HandlerThread:23844 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-27 18:36:21,624 DEBUG   SenderThread:23844 [sender.py:send():336] send: final
+2023-03-27 18:36:21,624 DEBUG   SenderThread:23844 [sender.py:send():336] send: footer
+2023-03-27 18:36:21,624 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: defer
+2023-03-27 18:36:21,624 INFO    SenderThread:23844 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-27 18:36:21,625 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-27 18:36:21,625 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: server_info
+2023-03-27 18:36:21,625 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-27 18:36:21,625 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-27 18:36:21,627 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: poll_exit
+2023-03-27 18:36:21,627 DEBUG   SenderThread:23844 [sender.py:send_request():363] send_request: server_info
+2023-03-27 18:36:21,898 INFO    MainThread:23844 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2023-03-27 18:36:21,898 INFO    MainThread:23844 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2023-03-27 18:36:21,898 INFO    MainThread:23844 [wandb_run.py:_footer_sync_info():3387] logging synced files
+2023-03-27 18:36:21,904 DEBUG   HandlerThread:23844 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-27 18:36:21,904 INFO    HandlerThread:23844 [handler.py:finish():842] shutting down handler
+2023-03-27 18:36:22,633 INFO    WriterThread:23844 [datastore.py:close():298] close: C:\Users\liamm\water-resource-management\wandb\run-20230327_183211-c0e2yhfp\run-c0e2yhfp.wandb
+2023-03-27 18:36:22,898 INFO    SenderThread:23844 [sender.py:finish():1504] shutting down sender
+2023-03-27 18:36:22,899 INFO    SenderThread:23844 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-27 18:36:22,899 INFO    SenderThread:23844 [file_pusher.py:join():169] waiting for file pusher

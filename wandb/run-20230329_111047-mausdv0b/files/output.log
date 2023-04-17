@@ -1,0 +1,122 @@
+
+wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_2_obj_RestrAction200_pen
+CCS: [] CCS size: 0
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [-12486.93    -4942.8125] to CCS.
+Adding value: [-12451.955  -4941.707] to CCS.
+removed value [-12486.93    -4942.8125]
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([-12451.955,  -4941.707], dtype=float32)] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-12469.528   -4956.5825] to CCS.
+Value [-12469.528   -4956.5825] is dominated. Discarding.
+Adding value: [-12577.5933  -4954.584 ] to CCS.
+Value [-12577.5933  -4954.584 ] is dominated. Discarding.
+Adding value: [-12646.2847  -4960.0401] to CCS.
+Value [-12646.2847  -4960.0401] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([-12451.955,  -4941.707], dtype=float32)] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-12403.787   -4937.1104] to CCS.
+removed value [-12451.955  -4941.707]
+Adding value: [-12490.1368  -4952.2642] to CCS.
+Value [-12490.1368  -4952.2642] is dominated. Discarding.
+Adding value: [-12460.8986  -4942.5222] to CCS.
+Value [-12460.8986  -4942.5222] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([-12403.787 ,  -4937.1104], dtype=float32)] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-12539.576  -4935.95 ] to CCS.
+Adding value: [-12477.0559  -4962.2371] to CCS.
+Value [-12477.0559  -4962.2371] is dominated. Discarding.
+Adding value: [-12486.1141  -4949.3216] to CCS.
+Value [-12486.1141  -4949.3216] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.0085, 0.9915]), array([0., 1.])] W_corner size: 3
+CCS: [array([-12403.787 ,  -4937.1104], dtype=float32), array([-12539.576,  -4935.95 ], dtype=float32)] CCS size: 2
+Next weight: [0.0085 0.9915]
+Next weight vector: [0.0085 0.9915]
+Adding value: [-12552.432   -4951.2803] to CCS.
+Value [-12552.432   -4951.2803] is dominated. Discarding.
+Adding value: [-12620.364   -4948.3438] to CCS.
+Value [-12620.364   -4948.3438] is dominated. Discarding.
+Adding value: [-12513.8865  -4949.7456] to CCS.
+Value [-12513.8865  -4949.7456] is dominated. Discarding.
+Adding value: [-12647.5246  -4949.8926] to CCS.
+Value [-12647.5246  -4949.8926] is dominated. Discarding.
+Adding value: [-12578.4411  -4968.2644] to CCS.
+Value [-12578.4411  -4968.2644] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.0085, 0.9915]), array([0., 1.])] W_corner size: 3
+CCS: [array([-12403.787 ,  -4937.1104], dtype=float32), array([-12539.576,  -4935.95 ], dtype=float32)] CCS size: 2
+Next weight: [0.0085 0.9915]
+Next weight vector: [0.0085 0.9915]
+Adding value: [-12608.554   -4952.0503] to CCS.
+Value [-12608.554   -4952.0503] is dominated. Discarding.
+Adding value: [-12530.436   -4953.3267] to CCS.
+Value [-12530.436   -4953.3267] is dominated. Discarding.
+Adding value: [-12513.1359  -4950.548 ] to CCS.
+Value [-12513.1359  -4950.548 ] is dominated. Discarding.
+Adding value: [-12571.0137  -4953.9435] to CCS.
+Value [-12571.0137  -4953.9435] is dominated. Discarding.
+Adding value: [-12627.4676  -4952.3477] to CCS.
+Value [-12627.4676  -4952.3477] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.0085, 0.9915]), array([0., 1.])] W_corner size: 3
+CCS: [array([-12403.787 ,  -4937.1104], dtype=float32), array([-12539.576,  -4935.95 ], dtype=float32)] CCS size: 2
+Next weight: [0.0085 0.9915]
+Next weight vector: [0.0085 0.9915]
+Adding value: [-12587.53   -4949.982] to CCS.
+Value [-12587.53   -4949.982] is dominated. Discarding.
+Adding value: [-12629.87  -4965.85] to CCS.
+Value [-12629.87  -4965.85] is dominated. Discarding.
+Adding value: [-12622.7782  -4937.6045] to CCS.
+Value [-12622.7782  -4937.6045] is dominated. Discarding.
+Adding value: [-12678.5651  -4954.8693] to CCS.
+Value [-12678.5651  -4954.8693] is dominated. Discarding.
+Adding value: [-12574.7333  -4946.1788] to CCS.
+Value [-12574.7333  -4946.1788] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.0085, 0.9915]), array([0., 1.])] W_corner size: 3
+CCS: [array([-12403.787 ,  -4937.1104], dtype=float32), array([-12539.576,  -4935.95 ], dtype=float32)] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-12624.625   -4954.3115] to CCS.
+Value [-12624.625   -4954.3115] is dominated. Discarding.
+Adding value: [-12498.79   -4935.116] to CCS.
+removed value [-12539.576  -4935.95 ]
+Adding value: [-12560.7731  -4954.8182] to CCS.
+Value [-12560.7731  -4954.8182] is dominated. Discarding.
+Adding value: [-12371.6124  -4941.4984] to CCS.
+removed value [-12403.787   -4937.1104]
+Adding value: [-12593.1174  -4956.8131] to CCS.
+Value [-12593.1174  -4956.8131] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.0478, 0.9522]), array([0., 1.])] W_corner size: 3
+CCS: [array([-12498.79 ,  -4935.116], dtype=float32), array([-12371.6124,  -4941.4984])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-12504.198  -4940.169] to CCS.
+Value [-12504.198  -4940.169] is dominated. Discarding.
+Adding value: [-12597.4614  -4959.1493] to CCS.
+Value [-12597.4614  -4959.1493] is dominated. Discarding.
+Adding value: [-12746.6723  -4962.0465] to CCS.
+Value [-12746.6723  -4962.0465] is dominated. Discarding.
+Adding value: [-12577.7964  -4956.9747] to CCS.
+Value [-12577.7964  -4956.9747] is dominated. Discarding.
+Adding value: [-12547.2054  -4950.457 ] to CCS.
+Value [-12547.2054  -4950.457 ] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.0478, 0.9522]), array([0., 1.])] W_corner size: 3
+CCS: [array([-12498.79 ,  -4935.116], dtype=float32), array([-12371.6124,  -4941.4984])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-12634.869   -4950.9746] to CCS.
+Value [-12634.869   -4950.9746] is dominated. Discarding.
+Adding value: [-12524.2606  -4946.0768] to CCS.
+Value [-12524.2606  -4946.0768] is dominated. Discarding.
+Adding value: [-12585.9866  -4950.3166] to CCS.
+Value [-12585.9866  -4950.3166] is dominated. Discarding.
+Adding value: [-12537.6153  -4936.0293] to CCS.
+Value [-12537.6153  -4936.0293] is dominated. Discarding.
+Adding value: [-12466.1917  -4941.2726] to CCS.
+Value [-12466.1917  -4941.2726] is dominated. Discarding.

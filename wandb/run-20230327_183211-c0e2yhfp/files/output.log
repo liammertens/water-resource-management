@@ -1,0 +1,26 @@
+
+wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_2_obj_pen
+CCS: [] CCS size: 0
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [ -88.794  -698.7424] to CCS.
+Adding value: [ -94.5788 -721.1457] to CCS.
+Value [ -94.5788 -721.1457] is dominated. Discarding.
+Traceback (most recent call last):
+  File "c:/Users/liamm/water-resource-management/GPI/main.py", line 19, in <module>
+    agent.train(100000, env, ref_point=np.array([0,0], dtype=np.float32)) #random ref_point
+  File "C:\Users\liamm\anaconda3\lib\site-packages\morl_baselines\multi_policy\gpi_pd\gpi_pd_continuous_action.py", line 657, in train
+    gpi_returns_test_tasks = [
+  File "C:\Users\liamm\anaconda3\lib\site-packages\morl_baselines\multi_policy\gpi_pd\gpi_pd_continuous_action.py", line 658, in <listcomp>
+    policy_evaluation_mo(self, eval_env, w, rep=num_eval_episodes_for_front)[3] for w in eval_weights
+  File "C:\Users\liamm\anaconda3\lib\site-packages\morl_baselines\common\evaluation.py", line 113, in policy_evaluation_mo
+    evals = [eval_mo(agent, env, w) for _ in range(rep)]
+  File "C:\Users\liamm\anaconda3\lib\site-packages\morl_baselines\common\evaluation.py", line 113, in <listcomp>
+    evals = [eval_mo(agent, env, w) for _ in range(rep)]
+  File "C:\Users\liamm\anaconda3\lib\site-packages\morl_baselines\common\evaluation.py", line 34, in eval_mo
+    obs, r, terminated, truncated, info = env.step(agent.eval(obs, w))
+  File "C:\Users\liamm\anaconda3\lib\site-packages\gymnasium\wrappers\order_enforcing.py", line 38, in step
+    return self.env.step(action)
+  File "C:\Users\liamm\anaconda3\lib\site-packages\mo_gymnasium\envs\water_reservoir\dam_env.py", line 278, in step
+    p_hyd = DamEnv.ETA * DamEnv.G * DamEnv.GAMMA_H2O * n_state[0] / DamEnv.S * q / 3.6e6
+KeyboardInterrupt

@@ -1,0 +1,38 @@
+diff --git a/Gpi/main.py b/Gpi/main.py
+index 23bb996..a3874e5 100644
+--- a/Gpi/main.py
++++ b/Gpi/main.py
+@@ -6,7 +6,7 @@ from morl_baselines.multi_policy.gpi_pd.gpi_pd_continuous_action import GPIPDCon
+ # Error with the dimensions of the reward array when penalized=False (probably a bug when summing the reward with penalty=0.0)
+ #   Fixed by downgrading to numpy 1.21 fromn 1.24
+ 
+-env = mo_gym.make('water-reservoir-v0', normalized_action=True, nO=4, penalize=False)
++env = mo_gym.make('water-reservoir-v0', normalized_action=True, nO=2, penalize=False)
+ # Bug when penalize=True
+ # using numpy.random._generator.Generator (default in gym), the np_random.randint method does not work on default np.Generator (dam_env.py line 140)
+ #   This functionality has been removed in numpy 1.23 (required version in pyproject is 1.21=<)
+@@ -21,8 +21,8 @@ env = mo_gym.make('water-reservoir-v0', normalized_action=True, nO=4, penalize=F
+ 
+ # When using the model based version (dyna=True, per=True), NotImplementedError is raised by:
+ #   morl-baselines/common/model-based/utils.py (env_id==water-reservoir-v0 is not in the if-statement in the contructor of ModelEnv)
+-agent = GPIPDContinuousAction(env=env, per=False, dyna=False)
++agent = GPIPDContinuousAction(env=env, per=True, dyna=False, experiment_name='gpi-ls_2_obj')
+ 
+-#agent.train(env, ref_point=np.array([0,0], dtype=np.float32)) #random ref_point
++agent.train(env, ref_point=np.array([0,0], dtype=np.float32)) #random ref_point
+ 
+ #agent.load("./weights/GPI-PD gpi-ls iter=10.tar")
+Submodule morl-baselines contains modified content
+diff --git a/morl-baselines/morl_baselines/multi_policy/gpi_pd/gpi_pd_continuous_action.py b/morl-baselines/morl_baselines/multi_policy/gpi_pd/gpi_pd_continuous_action.py
+index 3cb1f9b..f0fe328 100644
+--- a/morl-baselines/morl_baselines/multi_policy/gpi_pd/gpi_pd_continuous_action.py
++++ b/morl-baselines/morl_baselines/multi_policy/gpi_pd/gpi_pd_continuous_action.py
+@@ -220,6 +220,8 @@ class GPIPDContinuousAction(MOAgent, MOPolicy):
+             self.dynamics_buffer = ReplayBuffer(
+                 self.observation_shape, self.action_dim, rew_dim=self.reward_dim, max_size=dynamics_buffer_size
+             )
++        else:
++            self.dynamics = None
+         self.dynamics_train_freq = dynamics_train_freq
+         self.dynamics_rollout_len = dynamics_rollout_len
+         self.dynamics_rollout_starts = dynamics_rollout_starts
