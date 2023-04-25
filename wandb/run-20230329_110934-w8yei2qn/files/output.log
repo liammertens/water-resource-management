@@ -1,4 +1,0 @@
-wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_2_obj_RestrAction200_pen
-Traceback (most recent call last):
-  File "c:/Users/liamm/water-resource-management/GPI/main.py", line 21, in <module>
-    agent.train(365000, env, ref_point=np.array([0,0], dtype=np.float32, timesteps_per_iter=36500, eval_freq=3650)) #random ref_point

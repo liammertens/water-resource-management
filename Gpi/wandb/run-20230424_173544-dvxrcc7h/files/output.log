@@ -1,0 +1,4 @@
+wandb: WARNING When using several event log directories, please call `wandb.tensorboard.patch(root_logdir="...")` before `wandb.init`
+wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_2_obj
+CCS: [] CCS size: 0
+Next weight: [1. 0.]

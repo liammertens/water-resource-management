@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.8",
+    "heartbeatAt": "2023-04-17T18:24:04.073033",
+    "startedAt": "2023-04-17T18:24:02.974813",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:liammertens/water-resource-management.git",
+        "commit": "e643c85226032beea7a7bda955d213de7fcbe596"
+    },
+    "email": "liam.mertens02@gmail.com",
+    "root": "C:/Users/liamm/water-resource-management",
+    "host": "DESKTOP-FJUR71H",
+    "username": "liamm",
+    "executable": "c:\\Users\\liamm\\anaconda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1803.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1803.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "total": 460.88964462280273,
+        "used": 290.26782608032227
+    },
+    "memory": {
+        "total": 15.787006378173828
+    }
+}
