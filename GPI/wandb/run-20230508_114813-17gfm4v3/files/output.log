@@ -1,0 +1,28 @@
+
+wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_2_obj_lowerstdev
+CCS: [] CCS size: 0
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [-13289.112  -13920.2705] to CCS.
+Adding value: [-13222.192 -13849.83 ] to CCS.
+removed value [-13289.112  -13920.2705]
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([-13222.192, -13849.83 ], dtype=float32)] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-13290.987 -13928.823] to CCS.
+Value [-13290.987 -13928.823] is dominated. Discarding.
+Adding value: [-13280.4837 -13903.6143] to CCS.
+Value [-13280.4837 -13903.6143] is dominated. Discarding.
+Adding value: [-13304.5884 -13948.2236] to CCS.
+Value [-13304.5884 -13948.2236] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([-13222.192, -13849.83 ], dtype=float32)] CCS size: 1
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [-13227.669 -13853.385] to CCS.
+Value [-13227.669 -13853.385] is dominated. Discarding.
+Adding value: [-13277.5465 -13920.54  ] to CCS.
+Value [-13277.5465 -13920.54  ] is dominated. Discarding.
+Adding value: [-13290.0962 -13928.6392] to CCS.

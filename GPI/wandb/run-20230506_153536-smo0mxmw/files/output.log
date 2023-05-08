@@ -1,0 +1,227 @@
+
+wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_2_obj_norm_lowerstdev
+CCS: [] CCS size: 0
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -638.4866] to CCS.
+Adding value: [   0.    -636.994] to CCS.
+removed value [   0.     -638.4866]
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([   0.   , -636.994], dtype=float32)] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -636.3579] to CCS.
+removed value [   0.    -636.994]
+Adding value: [   0.     -638.8249] to CCS.
+Adding value: [   0.     -636.3111] to CCS.
+removed value [   0.     -638.8249]
+removed value [   0.     -636.3579]
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([   0.    , -636.3111])] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -638.7521] to CCS.
+Adding value: [   0.     -636.0081] to CCS.
+removed value [   0.     -638.7521]
+removed value [   0.     -636.3111]
+Adding value: [   0.     -634.9864] to CCS.
+removed value [   0.     -636.0081]
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([   0.    , -634.9864])] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -645.6574] to CCS.
+Adding value: [   0.     -625.7798] to CCS.
+removed value [   0.     -645.6574]
+removed value [   0.     -634.9864]
+Adding value: [   0.     -629.9309] to CCS.
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -625.7798]), array([   0.    , -629.9309])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -621.1978] to CCS.
+removed value [   0.     -629.9309]
+removed value [   0.     -625.7798]
+Adding value: [   0.     -630.9665] to CCS.
+Adding value: [   0.     -636.1755] to CCS.
+removed value [   0.     -630.9665]
+Adding value: [   0.    -627.723] to CCS.
+removed value [   0.     -636.1755]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -621.1978]), array([   0.   , -627.723])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -626.3044] to CCS.
+removed value [   0.    -627.723]
+Adding value: [   0.    -635.744] to CCS.
+removed value [   0.     -626.3044]
+Adding value: [   0.     -629.7186] to CCS.
+removed value [   0.    -635.744]
+Adding value: [   0.     -629.9937] to CCS.
+removed value [   0.     -629.7186]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -621.1978]), array([   0.    , -629.9937])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -622.9719] to CCS.
+removed value [   0.     -629.9937]
+Adding value: [   0.     -633.5178] to CCS.
+removed value [   0.     -622.9719]
+Adding value: [   0.     -627.9832] to CCS.
+removed value [   0.     -633.5178]
+Adding value: [   0.     -637.4819] to CCS.
+removed value [   0.     -627.9832]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -621.1978]), array([   0.    , -637.4819])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -632.6424] to CCS.
+removed value [   0.     -637.4819]
+Adding value: [   0.     -637.3534] to CCS.
+removed value [   0.     -632.6424]
+Adding value: [   0.     -623.0462] to CCS.
+removed value [   0.     -637.3534]
+Adding value: [   0.     -643.0918] to CCS.
+removed value [   0.     -623.0462]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -621.1978]), array([   0.    , -643.0918])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -640.4229] to CCS.
+removed value [   0.     -643.0918]
+Adding value: [   0.   -638.91] to CCS.
+removed value [   0.     -640.4229]
+Adding value: [   0.     -619.6708] to CCS.
+removed value [   0.   -638.91]
+removed value [   0.     -621.1978]
+Adding value: [   0.     -619.2796] to CCS.
+removed value [   0.     -619.6708]
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([   0.    , -619.2796])] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -627.8527] to CCS.
+Adding value: [   0.     -631.7695] to CCS.
+removed value [   0.     -627.8527]
+Adding value: [   0.    -638.228] to CCS.
+removed value [   0.     -631.7695]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -619.2796]), array([   0.   , -638.228])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -632.7324] to CCS.
+removed value [   0.    -638.228]
+Adding value: [   0.     -645.0931] to CCS.
+removed value [   0.     -632.7324]
+Adding value: [   0.     -626.1493] to CCS.
+removed value [   0.     -645.0931]
+Adding value: [   0.     -630.6816] to CCS.
+removed value [   0.     -626.1493]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -619.2796]), array([   0.    , -630.6816])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -632.9026] to CCS.
+removed value [   0.     -630.6816]
+Adding value: [   0.     -628.3441] to CCS.
+removed value [   0.     -632.9026]
+Adding value: [   0.    -628.396] to CCS.
+removed value [   0.     -628.3441]
+Adding value: [   0.     -625.1012] to CCS.
+removed value [   0.    -628.396]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -619.2796]), array([   0.    , -625.1012])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -634.5467] to CCS.
+removed value [   0.     -625.1012]
+Adding value: [   0.     -642.9692] to CCS.
+removed value [   0.     -634.5467]
+Adding value: [   0.   -625.95] to CCS.
+removed value [   0.     -642.9692]
+Adding value: [   0.     -625.3148] to CCS.
+removed value [   0.   -625.95]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.    , -619.2796]), array([   0.    , -625.3148])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -622.0459] to CCS.
+removed value [   0.     -625.3148]
+Adding value: [   0.    -635.151] to CCS.
+removed value [   0.     -622.0459]
+Adding value: [   0.    -619.273] to CCS.
+removed value [   0.    -635.151]
+removed value [   0.     -619.2796]
+Adding value: [   0.     -635.6919] to CCS.
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.   , -619.273]), array([   0.    , -635.6919])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -623.5882] to CCS.
+removed value [   0.     -635.6919]
+Adding value: [   0.     -634.2316] to CCS.
+removed value [   0.     -623.5882]
+Adding value: [   0.     -631.8931] to CCS.
+removed value [   0.     -634.2316]
+Adding value: [   0.     -626.1381] to CCS.
+removed value [   0.     -631.8931]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.   , -619.273]), array([   0.    , -626.1381])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -629.1967] to CCS.
+removed value [   0.     -626.1381]
+Adding value: [   0.     -623.9482] to CCS.
+removed value [   0.     -629.1967]
+Adding value: [   0.     -642.0053] to CCS.
+removed value [   0.     -623.9482]
+Adding value: [   0.     -629.8067] to CCS.
+removed value [   0.     -642.0053]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.   , -619.273]), array([   0.    , -629.8067])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -636.3484] to CCS.
+removed value [   0.     -629.8067]
+Adding value: [   0.    -619.839] to CCS.
+removed value [   0.     -636.3484]
+Adding value: [   0.     -630.1199] to CCS.
+removed value [   0.    -619.839]
+Adding value: [   0.    -629.192] to CCS.
+removed value [   0.     -630.1199]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.   , -619.273]), array([   0.   , -629.192])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -634.2631] to CCS.
+removed value [   0.    -629.192]
+Adding value: [   0.     -630.2833] to CCS.
+removed value [   0.     -634.2631]
+Adding value: [   0.     -628.4533] to CCS.
+removed value [   0.     -630.2833]
+Adding value: [   0.     -625.4013] to CCS.
+removed value [   0.     -628.4533]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.   , -619.273]), array([   0.    , -625.4013])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [   0.     -623.9917] to CCS.
+removed value [   0.     -625.4013]
+Adding value: [   0.     -631.2716] to CCS.
+removed value [   0.     -623.9917]
+Adding value: [   0.     -624.8463] to CCS.
+removed value [   0.     -631.2716]
+Adding value: [   0.     -634.1961] to CCS.
+removed value [   0.     -624.8463]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([   0.   , -619.273]), array([   0.    , -634.1961])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [   0.     -634.4016] to CCS.
+removed value [   0.     -634.1961]
+Adding value: [   0.     -626.2009] to CCS.
+removed value [   0.     -634.4016]
+Adding value: [   0.     -632.3764] to CCS.
+removed value [   0.     -626.2009]
+Adding value: [   0.     -632.1661] to CCS.

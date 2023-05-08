@@ -1,0 +1,164 @@
+wandb: WARNING When using several event log directories, please call `wandb.tensorboard.patch(root_logdir="...")` before `wandb.init`
+wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_2_obj_NormAction_slightlyLessPolicyNoise_lessHiddenLayers500_bufferSize3650
+CCS: [] CCS size: 0
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [ -53.3239 -692.2601] to CCS.
+Adding value: [ -52.6241 -666.6635] to CCS.
+removed value [ -53.3239 -692.2601]
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([ -52.6241, -666.6635], dtype=float32)] CCS size: 1
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [ -53.5078 -678.9506] to CCS.
+Value [ -53.5078 -678.9506] is dominated. Discarding.
+Adding value: [ -52.773  -686.3801] to CCS.
+Value [ -52.773  -686.3801] is dominated. Discarding.
+Adding value: [ -50.4685 -671.2874] to CCS.
+W_corner: [array([1., 0.]), array([0.682, 0.318]), array([0., 1.])] W_corner size: 3
+CCS: [array([ -52.6241, -666.6635], dtype=float32), array([ -50.4685, -671.2874])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [ -59.1993 -671.5605] to CCS.
+Value [ -59.1993 -671.5605] is dominated. Discarding.
+Adding value: [ -49.5865 -684.151 ] to CCS.
+removed value [ -50.4685 -671.2874]
+Adding value: [ -55.2262 -681.3617] to CCS.
+Value [ -55.2262 -681.3617] is dominated. Discarding.
+Adding value: [ -52.8349 -681.7181] to CCS.
+Value [ -52.8349 -681.7181] is dominated. Discarding.
+Adding value: [ -51.8719 -675.8067] to CCS.
+Value [ -51.8719 -675.8067] is dominated. Discarding.
+wandb: WARNING A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
+wandb: WARNING A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
+wandb: WARNING A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
+W_corner: [array([1., 0.]), array([0.852, 0.148]), array([0., 1.])] W_corner size: 3
+CCS: [array([ -52.6241, -666.6635], dtype=float32), array([ -49.5865, -684.151 ])] CCS size: 2
+Next weight: [0.852 0.148]
+Next weight vector: [0.852 0.148]
+Adding value: [ -57.7093 -675.8958] to CCS.
+Value [ -57.7093 -675.8958] is dominated. Discarding.
+Adding value: [ -53.1273 -682.4068] to CCS.
+Value [ -53.1273 -682.4068] is dominated. Discarding.
+Adding value: [ -54.8407 -685.5317] to CCS.
+Value [ -54.8407 -685.5317] is dominated. Discarding.
+Adding value: [ -56.009  -687.6895] to CCS.
+Value [ -56.009  -687.6895] is dominated. Discarding.
+Adding value: [ -50.9118 -692.6392] to CCS.
+Value [ -50.9118 -692.6392] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.852, 0.148]), array([0., 1.])] W_corner size: 3
+CCS: [array([ -52.6241, -666.6635], dtype=float32), array([ -49.5865, -684.151 ])] CCS size: 2
+Next weight: [0.852 0.148]
+Next weight vector: [0.852 0.148]
+Adding value: [ -53.2013 -666.2533] to CCS.
+Adding value: [ -52.9794 -695.8425] to CCS.
+Value [ -52.9794 -695.8425] is dominated. Discarding.
+Adding value: [ -51.0715 -693.5197] to CCS.
+Value [ -51.0715 -693.5197] is dominated. Discarding.
+Adding value: [ -52.4249 -675.8586] to CCS.
+Value [ -52.4249 -675.8586] is dominated. Discarding.
+Adding value: [ -53.2525 -691.9525] to CCS.
+Value [ -53.2525 -691.9525] is dominated. Discarding.
+W_corner: [array([0.852, 0.148]), array([1., 0.]), array([0., 1.]), array([0.4154, 0.5846])] W_corner size: 4
+CCS: [array([ -52.6241, -666.6635], dtype=float32), array([ -49.5865, -684.151 ]), array([ -53.2013, -666.2533], dtype=float32)] CCS size: 3
+Next weight: [0.852 0.148]
+Next weight vector: [0.852 0.148]
+Adding value: [ -57.1016 -681.2313] to CCS.
+Value [ -57.1016 -681.2313] is dominated. Discarding.
+Adding value: [ -51.8238 -683.439 ] to CCS.
+Value [ -51.8238 -683.439 ] is dominated. Discarding.
+Adding value: [ -51.3525 -683.1772] to CCS.
+Value [ -51.3525 -683.1772] is dominated. Discarding.
+Adding value: [ -53.7461 -686.9462] to CCS.
+Value [ -53.7461 -686.9462] is dominated. Discarding.
+Adding value: [ -54.6138 -683.4982] to CCS.
+Value [ -54.6138 -683.4982] is dominated. Discarding.
+Adding value: [ -52.2252 -685.1301] to CCS.
+Value [ -52.2252 -685.1301] is dominated. Discarding.
+Adding value: [ -53.4161 -692.6501] to CCS.
+Value [ -53.4161 -692.6501] is dominated. Discarding.
+W_corner: [array([0.852, 0.148]), array([1., 0.]), array([0., 1.]), array([0.4154, 0.5846])] W_corner size: 4
+CCS: [array([ -52.6241, -666.6635], dtype=float32), array([ -49.5865, -684.151 ]), array([ -53.2013, -666.2533], dtype=float32)] CCS size: 3
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [ -52.684  -692.1897] to CCS.
+Value [ -52.684  -692.1897] is dominated. Discarding.
+Adding value: [ -54.7197 -685.2693] to CCS.
+Value [ -54.7197 -685.2693] is dominated. Discarding.
+Adding value: [ -50.6173 -677.6474] to CCS.
+Adding value: [ -52.202  -672.8386] to CCS.
+Value [ -52.202  -672.8386] is dominated. Discarding.
+Adding value: [ -53.4817 -677.6959] to CCS.
+Value [ -53.4817 -677.6959] is dominated. Discarding.
+Adding value: [ -52.9128 -691.6938] to CCS.
+Value [ -52.9128 -691.6938] is dominated. Discarding.
+Adding value: [ -56.0807 -685.1357] to CCS.
+Value [ -56.0807 -685.1357] is dominated. Discarding.
+W_corner: [array([0.8455, 0.1545]), array([1., 0.]), array([0.8632, 0.1368]), array([0., 1.]), array([0.4154, 0.5846])] W_corner size: 5
+CCS: [array([ -52.6241, -666.6635], dtype=float32), array([ -49.5865, -684.151 ]), array([ -53.2013, -666.2533], dtype=float32), array([ -50.6173, -677.6474], dtype=float32)] CCS size: 4
+Next weight: [0.8632 0.1368]
+Next weight vector: [0.8632 0.1368]
+Adding value: [ -52.0748 -683.2769] to CCS.
+Value [ -52.0748 -683.2769] is dominated. Discarding.
+Adding value: [ -51.8255 -698.9412] to CCS.
+Value [ -51.8255 -698.9412] is dominated. Discarding.
+Adding value: [ -55.6897 -678.759 ] to CCS.
+Value [ -55.6897 -678.759 ] is dominated. Discarding.
+Adding value: [ -53.2472 -682.8411] to CCS.
+Value [ -53.2472 -682.8411] is dominated. Discarding.
+Adding value: [ -51.6334 -670.2062] to CCS.
+removed value [ -50.6173 -677.6474]
+Adding value: [ -51.5209 -688.6302] to CCS.
+Value [ -51.5209 -688.6302] is dominated. Discarding.
+Adding value: [ -57.5847 -670.8719] to CCS.
+Value [ -57.5847 -670.8719] is dominated. Discarding.
+Adding value: [ -53.2254 -690.6373] to CCS.
+Value [ -53.2254 -690.6373] is dominated. Discarding.
+Adding value: [ -49.2377 -698.283 ] to CCS.
+removed value [ -49.5865 -684.151 ]
+W_corner: [array([0.7815, 0.2185]), array([1., 0.]), array([0.9214, 0.0786]), array([0., 1.]), array([0.4154, 0.5846])] W_corner size: 5
+CCS: [array([ -52.6241, -666.6635], dtype=float32), array([ -53.2013, -666.2533], dtype=float32), array([ -51.6334, -670.2062]), array([ -49.2377, -698.283 ])] CCS size: 4
+Next weight: [0.7815 0.2185]
+Next weight vector: [0.7815 0.2185]
+Adding value: [ -57.4433 -679.8437] to CCS.
+Value [ -57.4433 -679.8437] is dominated. Discarding.
+Adding value: [ -51.3615 -678.1996] to CCS.
+Value [ -51.3615 -678.1996] is dominated. Discarding.
+Adding value: [ -54.6543 -698.5362] to CCS.
+Value [ -54.6543 -698.5362] is dominated. Discarding.
+Adding value: [ -51.7053 -687.4043] to CCS.
+Value [ -51.7053 -687.4043] is dominated. Discarding.
+Adding value: [ -53.2159 -693.2018] to CCS.
+Value [ -53.2159 -693.2018] is dominated. Discarding.
+Adding value: [ -57.3566 -678.4896] to CCS.
+Value [ -57.3566 -678.4896] is dominated. Discarding.
+Adding value: [ -53.9549 -691.2011] to CCS.
+Value [ -53.9549 -691.2011] is dominated. Discarding.
+Adding value: [ -57.2551 -677.0995] to CCS.
+Value [ -57.2551 -677.0995] is dominated. Discarding.
+Adding value: [ -50.8757 -686.11  ] to CCS.
+Value [ -50.8757 -686.11  ] is dominated. Discarding.
+wandb: WARNING A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
+wandb: WARNING A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
+wandb: WARNING A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
+W_corner: [array([0.7815, 0.2185]), array([1., 0.]), array([0.9214, 0.0786]), array([0., 1.]), array([0.4154, 0.5846])] W_corner size: 5
+CCS: [array([ -52.6241, -666.6635], dtype=float32), array([ -53.2013, -666.2533], dtype=float32), array([ -51.6334, -670.2062]), array([ -49.2377, -698.283 ])] CCS size: 4
+Next weight: [0.7815 0.2185]
+Next weight vector: [0.7815 0.2185]
+Adding value: [ -55.6986 -671.0363] to CCS.
+Value [ -55.6986 -671.0363] is dominated. Discarding.
+Adding value: [ -57.6083 -677.3708] to CCS.
+Value [ -57.6083 -677.3708] is dominated. Discarding.
+Adding value: [ -50.921  -674.2048] to CCS.
+Adding value: [ -53.6277 -675.5808] to CCS.
+Value [ -53.6277 -675.5808] is dominated. Discarding.
+Adding value: [ -55.8484 -682.8795] to CCS.
+Value [ -55.8484 -682.8795] is dominated. Discarding.
+Adding value: [ -52.8568 -686.5592] to CCS.
+Value [ -52.8568 -686.5592] is dominated. Discarding.
+Adding value: [ -52.754  -695.2206] to CCS.
+Value [ -52.754  -695.2206] is dominated. Discarding.
+Adding value: [ -53.5103 -669.684 ] to CCS.
+Value [ -53.5103 -669.684 ] is dominated. Discarding.
+Adding value: [ -53.9572 -681.9541] to CCS.
+Value [ -53.9572 -681.9541] is dominated. Discarding.

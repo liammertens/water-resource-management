@@ -1,0 +1,125 @@
+
+wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_cart
+CCS: [] CCS size: 0
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [-9.9996e+01 -3.8620e-02] to CCS.
+Adding value: [-99.9957 -58.0822] to CCS.
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([-9.9996e+01, -3.8620e-02], dtype=float32), array([-99.9957, -58.0822], dtype=float32)] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [-9.9996e+01 -5.1989e-02] to CCS.
+removed value [-99.9957 -58.0822]
+Adding value: [-99.9957 -62.562 ] to CCS.
+removed value [-9.9996e+01 -5.1989e-02]
+Adding value: [-9.9996e+01 -5.1786e-02] to CCS.
+removed value [-99.9957 -62.562 ]
+Adding value: [-99.9956 -63.2635] to CCS.
+removed value [-9.9996e+01 -5.1786e-02]
+W_corner: [array([1., 0.]), array([1.0000e+00, 1.5817e-06]), array([0., 1.])] W_corner size: 3
+CCS: [array([-9.9996e+01, -3.8620e-02], dtype=float32), array([-99.9956, -63.2635])] CCS size: 2
+Next weight: [1.0000e+00 1.5817e-06]
+Next weight vector: [1.0000e+00 1.5817e-06]
+Adding value: [-99.9957  -0.2137] to CCS.
+Value [-99.9957  -0.2137] is dominated. Discarding.
+Adding value: [-99.9956 -73.2671] to CCS.
+removed value [-99.9956 -63.2635]
+Adding value: [-99.9956 -71.7984] to CCS.
+removed value [-99.9956 -73.2671]
+Adding value: [-99.9956  -0.3793] to CCS.
+removed value [-99.9956 -71.7984]
+Adding value: [-99.9956 -72.5853] to CCS.
+W_corner: [array([1., 0.]), array([9.9971e-01, 2.9343e-04]), array([0., 1.])] W_corner size: 3
+CCS: [array([-9.9996e+01, -3.8620e-02], dtype=float32), array([-99.9956,  -0.3793]), array([-99.9956, -72.5853])] CCS size: 3
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-9.9996e+01 -3.4456e-02] to CCS.
+removed value [-9.9996e+01 -3.8620e-02]
+Adding value: [-9.9996e+01 -3.4333e-02] to CCS.
+removed value [-9.9996e+01 -3.4456e-02]
+removed value [-99.9956 -72.5853]
+removed value [-99.9956  -0.3793]
+Adding value: [-99.9956 -72.6202] to CCS.
+Adding value: [-99.9956 -70.2426] to CCS.
+removed value [-99.9956 -72.6202]
+Adding value: [-99.9956 -72.4862] to CCS.
+removed value [-99.9956 -70.2426]
+Adding value: [-9.9996e+01 -7.4841e-02] to CCS.
+removed value [-99.9956 -72.4862]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([-9.9996e+01, -3.4333e-02]), array([-9.9996e+01, -7.4841e-02])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-99.9956  -0.1212] to CCS.
+removed value [-9.9996e+01 -7.4841e-02]
+Adding value: [-9.9996e+01 -1.2951e-03] to CCS.
+removed value [-99.9956  -0.1212]
+removed value [-9.9996e+01 -3.4333e-02]
+Adding value: [-99.9956 -55.7682] to CCS.
+Adding value: [-9.9996e+01 -1.3869e-03] to CCS.
+removed value [-99.9956 -55.7682]
+W_corner: [array([0., 1.]), array([1., 0.])] W_corner size: 2
+CCS: [array([-9.9996e+01, -1.2951e-03]), array([-9.9996e+01, -1.3869e-03])] CCS size: 2
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-9.9996e+01 -1.5441e-03] to CCS.
+removed value [-9.9996e+01 -1.3869e-03]
+Adding value: [-9.9996e+01 -3.4932e-02] to CCS.
+removed value [-9.9996e+01 -1.5441e-03]
+Adding value: [-99.9956 -51.6448] to CCS.
+removed value [-9.9996e+01 -3.4932e-02]
+Adding value: [-9.9996e+01 -7.9808e-04] to CCS.
+removed value [-99.9956 -51.6448]
+removed value [-9.9996e+01 -1.2951e-03]
+W_corner: [array([1., 0.]), array([0., 1.])] W_corner size: 2
+CCS: [array([-9.9996e+01, -7.9808e-04])] CCS size: 1
+Next weight: [0. 1.]
+Next weight vector: [0. 1.]
+Adding value: [-9.9996e+01 -6.7070e-03] to CCS.
+Adding value: [-99.9808 -47.8051] to CCS.
+removed value [-9.9996e+01 -6.7070e-03]
+Adding value: [-9.9996e+01 -8.7628e-03] to CCS.
+Value [-9.9996e+01 -8.7628e-03] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([9.9969e-01, 3.0950e-04]), array([0., 1.])] W_corner size: 3
+CCS: [array([-9.9996e+01, -7.9808e-04]), array([-99.9808, -47.8051])] CCS size: 2
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [-9.9996e+01 -1.9521e-02] to CCS.
+Value [-9.9996e+01 -1.9521e-02] is dominated. Discarding.
+Adding value: [-99.6818 -68.2385] to CCS.
+removed value [-99.9808 -47.8051]
+Adding value: [-99.9753 -65.719 ] to CCS.
+Value [-99.9753 -65.719 ] is dominated. Discarding.
+Adding value: [-99.9956  -0.1421] to CCS.
+Value [-99.9956  -0.1421] is dominated. Discarding.
+Adding value: [-99.9956 -64.2368] to CCS.
+Value [-99.9956 -64.2368] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.9954, 0.0046]), array([0., 1.])] W_corner size: 3
+CCS: [array([-9.9996e+01, -7.9808e-04]), array([-99.6818, -68.2385])] CCS size: 2
+Next weight: [0.9954 0.0046]
+Next weight vector: [0.9954 0.0046]
+Adding value: [-9.9996e+01 -4.8593e-02] to CCS.
+Value [-9.9996e+01 -4.8593e-02] is dominated. Discarding.
+Adding value: [-99.9956 -64.5916] to CCS.
+Value [-99.9956 -64.5916] is dominated. Discarding.
+Adding value: [-99.9956  -0.1756] to CCS.
+Value [-99.9956  -0.1756] is dominated. Discarding.
+Adding value: [-99.9956 -66.1056] to CCS.
+Value [-99.9956 -66.1056] is dominated. Discarding.
+Adding value: [-99.9956 -65.9382] to CCS.
+Value [-99.9956 -65.9382] is dominated. Discarding.
+W_corner: [array([1., 0.]), array([0.9954, 0.0046]), array([0., 1.])] W_corner size: 3
+CCS: [array([-9.9996e+01, -7.9808e-04]), array([-99.6818, -68.2385])] CCS size: 2
+Next weight: [0.9954 0.0046]
+Next weight vector: [0.9954 0.0046]
+Adding value: [-99.9956  -0.1548] to CCS.
+Value [-99.9956  -0.1548] is dominated. Discarding.
+Adding value: [-99.9956 -64.2804] to CCS.
+Value [-99.9956 -64.2804] is dominated. Discarding.
+Adding value: [-99.9956  -0.1292] to CCS.
+Value [-99.9956  -0.1292] is dominated. Discarding.
+Adding value: [-99.9751 -64.9296] to CCS.
+Value [-99.9751 -64.9296] is dominated. Discarding.
+Adding value: [-99.9956 -65.9157] to CCS.

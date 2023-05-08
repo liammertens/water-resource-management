@@ -1,0 +1,116 @@
+2023-05-08 11:48:13,811 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Configure stats pid to 21380
+2023-05-08 11:48:13,811 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Loading settings from C:\Users\liamm\.config\wandb\settings
+2023-05-08 11:48:13,811 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Loading settings from c:\Users\liamm\water-resource-management\GPI\wandb\settings
+2023-05-08 11:48:13,811 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-08 11:48:13,811 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-08 11:48:13,811 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-08 11:48:13,813 INFO    MainThread:21380 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\liamm\water-resource-management\GPI\wandb\run-20230508_114813-17gfm4v3\logs\debug.log
+2023-05-08 11:48:13,813 INFO    MainThread:21380 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\liamm\water-resource-management\GPI\wandb\run-20230508_114813-17gfm4v3\logs\debug-internal.log
+2023-05-08 11:48:13,813 INFO    MainThread:21380 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000178708D99A0>
+2023-05-08 11:48:13,813 INFO    MainThread:21380 [wandb_init.py:init():546] calling init triggers
+2023-05-08 11:48:13,814 INFO    MainThread:21380 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {'env_id': 'water-reservoir-v0', 'learning_rate': 0.0003, 'num_q_nets': 2, 'batch_size': 128, 'tau': 0.005, 'gamma': 0.99, 'policy_noise': 0.2, 'net_arch': [256, 256], 'gradient_updates': 1, 'delay_policy_update': 2, 'min_priority': 0.1, 'per': True, 'buffer_size': 400000, 'alpha': 0.6, 'learning_starts': 1000, 'dyna': False, 'dynamics_net_arch': [200, 200, 200, 200], 'dynamics_rollout_len': 5, 'dynamics_min_uncertainty': 2.0, 'dynamics_real_ratio': 0.1, 'dynamics_train_freq': 250, 'dynamics_rollout_starts': 1000, 'dynamics_rollout_freq': 250, 'dynamics_rollout_batch_size': 10000, 'seed': None, 'algo': 'gpi-ls_2_obj_lowerstdev'}
+2023-05-08 11:48:13,814 INFO    MainThread:21380 [wandb_init.py:init():602] starting backend
+2023-05-08 11:48:13,814 INFO    MainThread:21380 [wandb_init.py:init():606] setting up manager
+2023-05-08 11:48:13,816 INFO    MainThread:21380 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-08 11:48:13,821 INFO    MainThread:21380 [wandb_init.py:init():613] backend started and connected
+2023-05-08 11:48:13,838 INFO    MainThread:21380 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-05-08 11:48:13,840 INFO    MainThread:21380 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-08 11:48:13,840 INFO    MainThread:21380 [wandb_init.py:init():701] updated telemetry
+2023-05-08 11:48:13,955 INFO    MainThread:21380 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-05-08 11:48:14,483 INFO    MainThread:21380 [wandb_run.py:_on_init():2133] communicating current version
+2023-05-08 11:48:14,575 INFO    MainThread:21380 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.15.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-08 11:48:14,575 INFO    MainThread:21380 [wandb_init.py:init():789] starting run threads in backend
+2023-05-08 11:48:27,509 INFO    MainThread:21380 [wandb_run.py:_console_start():2114] atexit reg
+2023-05-08 11:48:27,509 INFO    MainThread:21380 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-05-08 11:48:27,510 INFO    MainThread:21380 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-05-08 11:48:27,510 INFO    MainThread:21380 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-05-08 11:48:27,510 INFO    MainThread:21380 [wandb_init.py:init():831] run started, returning control to user process
+2023-05-08 11:48:27,511 INFO    MainThread:21380 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: /tmp/gpi-ls_2_obj_lowerstdev, True
+2023-05-08 11:48:27,518 INFO    MainThread:21380 [wandb_config.py:__setitem__():152] config set ref_point = [0.0, 0.0] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000017877F5ADC0>>
+2023-05-08 11:48:27,518 INFO    MainThread:21380 [wandb_run.py:_config_callback():1251] config_cb ref_point [0.0, 0.0] None
+2023-05-08 11:48:27,519 INFO    MainThread:21380 [wandb_config.py:__setitem__():152] config set known_front = None - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000017877F5ADC0>>
+2023-05-08 11:48:27,520 INFO    MainThread:21380 [wandb_run.py:_config_callback():1251] config_cb known_front None None
+2023-05-08 12:05:31,399 INFO    MainThread:21380 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2023-05-08 12:05:31,399 INFO    MainThread:21380 [wandb_init.py:_pause_backend():417] pausing backend
+2023-05-08 12:05:53,304 INFO    MainThread:21380 [wandb_init.py:_resume_backend():422] resuming backend
+2023-05-08 12:05:53,373 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Configure stats pid to 21380
+2023-05-08 12:05:53,374 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Loading settings from C:\Users\liamm\.config\wandb\settings
+2023-05-08 12:05:53,374 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Loading settings from c:\Users\liamm\water-resource-management\GPI\wandb\settings
+2023-05-08 12:05:53,374 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-08 12:05:53,374 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-08 12:05:53,374 INFO    MainThread:21380 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-08 12:05:53,376 INFO    MainThread:21380 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\liamm\water-resource-management\GPI\wandb\run-20230508_120553-4i4a5u2l\logs\debug.log
+2023-05-08 12:05:53,377 INFO    MainThread:21380 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\liamm\water-resource-management\GPI\wandb\run-20230508_120553-4i4a5u2l\logs\debug-internal.log
+2023-05-08 12:05:53,377 INFO    MainThread:21380 [wandb_init.py:init():546] calling init triggers
+2023-05-08 12:05:53,377 INFO    MainThread:21380 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {'env_id': 'water-reservoir-v0', 'learning_rate': 0.0003, 'num_q_nets': 2, 'batch_size': 128, 'tau': 0.005, 'gamma': 0.99, 'policy_noise': 0.2, 'net_arch': [256, 256], 'gradient_updates': 1, 'delay_policy_update': 2, 'min_priority': 0.1, 'per': True, 'buffer_size': 400000, 'alpha': 0.6, 'learning_starts': 4000, 'dyna': False, 'dynamics_net_arch': [200, 200, 200, 200], 'dynamics_rollout_len': 5, 'dynamics_min_uncertainty': 2.0, 'dynamics_real_ratio': 0.1, 'dynamics_train_freq': 250, 'dynamics_rollout_starts': 1000, 'dynamics_rollout_freq': 250, 'dynamics_rollout_batch_size': 10000, 'seed': None, 'algo': 'gpi-ls_2_obj_lowerstdev'}
+2023-05-08 12:05:53,377 INFO    MainThread:21380 [wandb_init.py:init():568] re-initializing run, found existing run on stack: 17gfm4v3
+2023-05-08 12:05:53,379 INFO    MainThread:21380 [wandb_run.py:_finish():1854] finishing run vub-ai/MORL-Baselines/17gfm4v3
+2023-05-08 12:05:53,388 INFO    MainThread:21380 [jupyter.py:save_history():474] saving 5 cells to _session_history.ipynb
+2023-05-08 12:05:53,393 INFO    MainThread:21380 [wandb_run.py:_config_callback():1251] config_cb ('_wandb', 'session_history') code\_session_history.ipynb None
+2023-05-08 12:05:53,409 INFO    MainThread:21380 [jupyter.py:_save_ipynb():384] looking for notebook: None
+2023-05-08 12:05:53,409 INFO    MainThread:21380 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2023-05-08 12:05:53,409 INFO    MainThread:21380 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-05-08 12:05:53,410 INFO    MainThread:21380 [wandb_run.py:_restore():2066] restore
+2023-05-08 12:05:53,410 INFO    MainThread:21380 [wandb_run.py:_restore():2072] restore done
+2023-05-08 12:08:29,938 WARNING MsgRouterThr:21380 [router.py:message_loop():77] message_loop has been closed
+2023-05-08 12:08:31,116 INFO    MainThread:21380 [wandb_run.py:_restore():2066] restore
+2023-05-08 12:08:31,116 INFO    MainThread:21380 [wandb_run.py:_restore():2072] restore done
+2023-05-08 12:08:31,170 ERROR   MainThread:21380 [wandb_init.py:init():1171] error
+Traceback (most recent call last):
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 2092, in _atexit_cleanup
+    self._on_finish()
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 2325, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\lib\mailbox.py", line 298, in wait
+    on_probe(probe_handle)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 2290, in _on_probe_exit
+    result = handle.wait(timeout=0)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\lib\mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 1144, in init
+    run = wi.init()
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 581, in init
+    self._wl._global_run_stack[-1].finish()
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 370, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 333, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 1845, in finish
+    return self._finish(exit_code, quiet)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 1860, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\wandb_run.py", line 2103, in _atexit_cleanup
+    self._backend.cleanup()
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\backend\backend.py", line 259, in cleanup
+    self.interface.join()
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 638, in join
+    super().join()
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\interface\interface.py", line 741, in join
+    _ = self._communicate_shutdown()
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 551, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 285, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 60, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\interface\router.py", line 94, in send_and_receive
+    self._send_message(rec)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\interface\router_sock.py", line 36, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 216, in send_record_communicate
+    self.send_server_request(server_req)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "c:\Users\liamm\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

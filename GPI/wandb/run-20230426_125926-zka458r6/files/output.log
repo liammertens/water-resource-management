@@ -1,0 +1,7 @@
+
+wandb: WARNING Found log directory outside of given root_logdir, dropping given root_logdir for event file in /tmp/gpi-ls_2_obj_norm
+CCS: [] CCS size: 0
+Next weight: [1. 0.]
+Next weight vector: [1. 0.]
+Adding value: [-385.8188 -639.5269] to CCS.
+Adding value: [-383.0881 -640.2488] to CCS.

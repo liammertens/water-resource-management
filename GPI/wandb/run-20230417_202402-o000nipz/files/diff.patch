@@ -1,0 +1,43 @@
+diff --git a/Gpi/main.ipynb b/Gpi/main.ipynb
+index b8191fe..057ebc0 100644
+--- a/Gpi/main.ipynb
++++ b/Gpi/main.ipynb
+@@ -115,7 +115,7 @@
+    "cell_type": "markdown",
+    "metadata": {},
+    "source": [
+-    "### Experiment with TD3 hyperparameters\n",
++    "### Experiment with TD3 hyperparameters: Attempt #1\n",
+     "\n",
+     "- net_arch = [500]\n",
+     "\n",
+@@ -458,6 +458,29 @@
+     "When looking at the resulting solution set, the returns have improved slightly. We'll try to experiment more with the hidden layer configuration."
+    ]
+   },
++  {
++   "attachments": {},
++   "cell_type": "markdown",
++   "metadata": {},
++   "source": [
++    "### Attempt #2\n",
++    "\n",
++    "- net_arch = [200]"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "env = mo_gym.make('water-reservoir-v0', normalized_action=True, nO=2, penalize=True, time_limit=365)\n",
++    "\n",
++    "GPIAgent = GPIPDContinuousAction(env=env, per=True, dyna=False, experiment_name='gpi-ls_2_obj_NormAction_lessPolicyNoise_lessHiddenLayers200', policy_noise=0.002, noise_clip=0.005, net_arch=[200])\n",
++    "\n",
++    "GPIAgent.train(365000, env, ref_point=np.array([0,0], dtype=np.float32), timesteps_per_iter=36500, eval_freq=3650) #random ref_point, hv is not used in the algorithm so this does not matter for training"
++   ]
++  },
+   {
+    "attachments": {},
+    "cell_type": "markdown",
