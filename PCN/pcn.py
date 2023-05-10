@@ -281,7 +281,8 @@ class PCN(MOAgent, MOPolicy):
             th.tensor([desired_horizon]).unsqueeze(1).float().to(self.device),
         )
         if self.continuous_actions: # log_probs = action, not probabilities!
-            return log_probs # is not int but float
+            action = log_probs.detach().cpu().numpy()[0]
+            return action # is not int but float
         else:
             log_probs = log_probs.detach().cpu().numpy()[0]
             action = self.np_random.choice(np.arange(len(log_probs)), p=np.exp(log_probs))
@@ -293,8 +294,7 @@ class PCN(MOAgent, MOPolicy):
         done = False
         while not done:
             action = self._act(obs, desired_return, desired_horizon)
-            
-            n_obs, reward, terminated, truncated, _ = env.step(action.detach().numpy())
+            n_obs, reward, terminated, truncated, _ = env.step(action)
             done = terminated or truncated
 
             transitions.append(
