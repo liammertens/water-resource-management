@@ -63,7 +63,6 @@ class Model(nn.Module):
 
         if self.continuous_actions:
             # do not use probability of actions
-            # TODO: alternative to this for training?
             self.fc = nn.Sequential(
                 nn.Linear(self.hidden_dim, self.hidden_dim),
                 nn.ReLU(),
@@ -108,6 +107,7 @@ class PCN(MOAgent, MOPolicy):
         env: Optional[gym.Env],
         scaling_factor: np.ndarray,
         continuous_actions: bool = False,
+        noise: float = 5.0,
         learning_rate: float = 1e-2,
         gamma: float = 1.0,
         batch_size: int = 32,
@@ -139,6 +139,7 @@ class PCN(MOAgent, MOPolicy):
         MOPolicy.__init__(self, device)
 
         self.continuous_actions = continuous_actions
+        self.noise = noise
 
         self.experience_replay = []  # List of (distance, time_step, transition)
         self.batch_size = batch_size
@@ -282,6 +283,9 @@ class PCN(MOAgent, MOPolicy):
         )
         if self.continuous_actions: # log_probs = action, not probabilities!
             action = log_probs.detach().cpu().numpy()[0]
+            if self.global_step > 5000000: # decay noise
+                self.noise = self.noise*0.1
+            action = action + np.random.normal(0.0, self.noise) # Add some random noise to the action to encourage exploration
             return action # is not int but float
         else:
             log_probs = log_probs.detach().cpu().numpy()[0]
@@ -395,6 +399,9 @@ class PCN(MOAgent, MOPolicy):
             self._add_episode(transitions, max_size=max_buffer_size, step=self.global_step)
 
         while self.global_step < total_timesteps:
+
+            if self.global_step % 100000 == 0:
+                self.noise *= .99 # decay noise every 100000 steps by .99
             loss = []
             entropy = []
             for _ in range(num_model_updates):
