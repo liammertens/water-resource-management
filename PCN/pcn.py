@@ -275,7 +275,7 @@ class PCN(MOAgent, MOPolicy):
         desired_return = np.float32(desired_return)
         return desired_return, desired_horizon
 
-    def _act(self, obs: np.ndarray, desired_return, desired_horizon):
+    def _act(self, obs: np.ndarray, desired_return, desired_horizon, training=True):
         log_probs = self.model(
             th.tensor([obs]).float().to(self.device),
             th.tensor([desired_return]).float().to(self.device),
@@ -283,21 +283,20 @@ class PCN(MOAgent, MOPolicy):
         )
         if self.continuous_actions: # log_probs = action, not probabilities!
             action = log_probs.detach().cpu().numpy()[0]
-            if self.global_step > 5000000: # decay noise
-                self.noise = self.noise*0.1
-            action = action + np.random.normal(0.0, self.noise) # Add some random noise to the action to encourage exploration
+            if training:
+                action = action + np.random.normal(0.0, self.noise) # Add some random noise to the action to encourage exploration
             return action # is not int but float
         else:
             log_probs = log_probs.detach().cpu().numpy()[0]
             action = self.np_random.choice(np.arange(len(log_probs)), p=np.exp(log_probs))
             return action
 
-    def _run_episode(self, env, desired_return, desired_horizon, max_return):
+    def _run_episode(self, env, desired_return, desired_horizon, max_return, training=True):
         transitions = []
         obs, _ = env.reset()
         done = False
         while not done:
-            action = self._act(obs, desired_return, desired_horizon)
+            action = self._act(obs, desired_return, desired_horizon, training=training)
             n_obs, reward, terminated, truncated, _ = env.step(action)
             done = terminated or truncated
 
@@ -326,9 +325,9 @@ class PCN(MOAgent, MOPolicy):
 
     def eval(self, obs, w=None):
         """Evaluate policy action for a given observation."""
-        return self._act(obs, self.desired_return, self.desired_horizon)
+        return self._act(obs, self.desired_return, self.desired_horizon, training=False)
 
-    def evaluate(self, env, max_return, n=10):
+    def evaluate(self, env, max_return, n=10, reps=50):
         """Evaluate policy in the given environment."""
         episodes = self._nlargest(n)
         returns, horizons = list(zip(*[(e[2][0].reward, len(e[2])) for e in episodes]))
@@ -336,11 +335,17 @@ class PCN(MOAgent, MOPolicy):
         horizons = np.float32(horizons)
         e_returns = []
         for i in range(n):
-            transitions = self._run_episode(env, returns[i], np.float32(horizons[i] - 2), max_return)
+            transitions = [self._run_episode(env, returns[i], np.float32(horizons[i] - 2), max_return, training=False) for _ in range(reps)] # fill with reps episodes
             # compute return
-            for i in reversed(range(len(transitions) - 1)):
-                transitions[i].reward += self.gamma * transitions[i + 1].reward
-            e_returns.append(transitions[0].reward)
+            for j in range(reps):
+                for i in reversed(range(len(transitions[j]) - 1)):
+                    transitions[j][i].reward += self.gamma * transitions[j][i + 1].reward
+            avg_return = 0
+            for rep in range(reps):
+                avg_return += transitions[rep][0].reward
+            #e_returns.append(transitions[0].reward)
+            avg_return /= reps
+            e_returns.append(avg_return)
 
         distances = np.linalg.norm(np.array(returns) - np.array(e_returns), axis=-1)
         return e_returns, np.array(returns), distances
@@ -356,6 +361,8 @@ class PCN(MOAgent, MOPolicy):
         total_timesteps: int,
         eval_env: gym.Env,
         ref_point: np.ndarray,
+        return_n_largest: False,
+        num_eval_episodes_for_front: int = 50,
         known_pareto_front: Optional[List[np.ndarray]] = None,
         num_er_episodes: int = 500,
         num_step_episodes: int = 10,
@@ -457,7 +464,7 @@ class PCN(MOAgent, MOPolicy):
                 self.save()
                 n_checkpoints += 1
                 n_points = 10
-                e_returns, _, _ = self.evaluate(eval_env, max_return, n=n_points)
+                e_returns, _, _ = self.evaluate(eval_env, max_return, n=n_points, reps=num_eval_episodes_for_front)
 
                 if self.log:
                     log_all_multi_policy_metrics(
@@ -468,3 +475,10 @@ class PCN(MOAgent, MOPolicy):
                         writer=self.writer,
                         ref_front=known_pareto_front,
                     )
+        if return_n_largest:
+            # This is for comparing buffered returns with the ones evaluated.
+            episodes = self._nlargest(10)
+            returns, horizons = list(zip(*[(e[2][0].reward, len(e[2])) for e in episodes]))
+            returns = np.float32(returns)
+            horizons = np.float32(horizons)
+            return returns
