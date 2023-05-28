@@ -1,4 +1,2 @@
-# water-resource-management
-Evaluation of state-of-the art MORL algorithms implemented in [morl-baselines](https://github.com/LucasAlegre/morl-baselines). The environment for evaluation is the water-reservoir environment of [MO-gym](https://github.com/Farama-Foundation/MO-Gymnasium).
-
-#...
+# Multi-criteria Reinforcement Learning for Water Resource Management
+Evaluation of state-of-the art MORL algorithms implemented in [morl-baselines](https://github.com/LucasAlegre/morl-baselines). The environment for evaluation is the water-reservoir environment of [MO-gym](https://github.com/Farama-Foundation/MO-Gymnasium). Tested algorithms are Pareto Conditioned Networks and GPI-LS. Read the [paper](https://www.overleaf.com/read/ktkrbfwcpgjd) for detailed overview of research done.
