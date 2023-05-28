@@ -361,8 +361,9 @@ class PCN(MOAgent, MOPolicy):
         total_timesteps: int,
         eval_env: gym.Env,
         ref_point: np.ndarray,
-        return_n_largest: False,
-        num_eval_episodes_for_front: int = 50,
+        return_n_largest: bool = False,
+        num_eval_episodes_for_front: int = 50, # how many episodes to average eval returns over
+        n_points: int = 11, # amount of points in the solution set
         known_pareto_front: Optional[List[np.ndarray]] = None,
         num_er_episodes: int = 500,
         num_step_episodes: int = 10,
@@ -409,6 +410,8 @@ class PCN(MOAgent, MOPolicy):
 
             if self.global_step % 100000 == 0:
                 self.noise *= .99 # decay noise every 100000 steps by .99
+
+            
             loss = []
             entropy = []
             for _ in range(num_model_updates):
@@ -463,7 +466,7 @@ class PCN(MOAgent, MOPolicy):
             if self.global_step >= (n_checkpoints + 1) * total_timesteps / 100:
                 self.save()
                 n_checkpoints += 1
-                n_points = 10
+                #n_points = 10
                 e_returns, _, _ = self.evaluate(eval_env, max_return, n=n_points, reps=num_eval_episodes_for_front)
 
                 if self.log:
@@ -477,7 +480,7 @@ class PCN(MOAgent, MOPolicy):
                     )
         if return_n_largest:
             # This is for comparing buffered returns with the ones evaluated.
-            episodes = self._nlargest(10)
+            episodes = self._nlargest(n_points)
             returns, horizons = list(zip(*[(e[2][0].reward, len(e[2])) for e in episodes]))
             returns = np.float32(returns)
             horizons = np.float32(horizons)
